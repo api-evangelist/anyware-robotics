@@ -2,7 +2,7 @@ aid: anyware-robotics
 
 name: Anyware Robotics
 
-description: 'Anyware Robotics provides deployable physical AI robots for physically demanding industrial work. Their AnywareOS platform offers perception, motion planning, and autonomous decision‑making, enabling robots to work alongside people, adapt to shifting conditions, and learn from every operation. The company offers solutions such as palletizing, case picking, trailer loading, and machine tending, aiming to reduce labor costs and improve safety.'
+description: 'Anyware Robotics builds and deploys advanced physical AI robots designed for the toughest industrial tasks. Their AnywareOS platform combines perception, motion planning, and autonomous decision‑making, allowing robots to collaborate safely with human workers, adapt to dynamic environments, and continuously learn from each operation. Solutions include palletizing, case picking, trailer loading, machine tending, and custom automation, all aimed at cutting labor costs, boosting productivity, and enhancing workplace safety across manufacturing, logistics, and warehousing sectors. The company also offers integration services, remote monitoring, and a developer ecosystem to extend robot capabilities.'
 
 url: https://raw.githubusercontent.com/api-evangelist/anyware-robotics/refs/heads/main/apis.yml
 
@@ -60,7 +60,7 @@ x-coverage:
   checked: '2026-09-25'
 x-enrichment:
   date: '2026-09-25'
-  status: enriched
-  artifacts_added: 5
+  status: minimal
+  artifacts_added: 1
   pass: modular-v1
   engine: identity=local,contract=local,surfaces=local,docs=local
