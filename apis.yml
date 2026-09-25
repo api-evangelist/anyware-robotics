@@ -1,23 +1,66 @@
 aid: anyware-robotics
+
 name: Anyware Robotics
-description: 'Anyware Robotics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Anyware Robotics provides deployable physical AI robots for physically demanding industrial work. Their AnywareOS platform offers perception, motion planning, and autonomous decision‑making, enabling robots to work alongside people, adapt to shifting conditions, and learn from every operation. The company offers solutions such as palletizing, case picking, trailer loading, and machine tending, aiming to reduce labor costs and improve safety.'
+
 url: https://raw.githubusercontent.com/api-evangelist/anyware-robotics/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
-- Company
-apis: []
+- Robotics
+- AI
+- Industrial Automation
+- Deployable Robots
+- Manufacturing
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/anyware-robotics-hosts.yml
+- type: Vendors
+  url: vendors/anyware-robotics-vendors.yml
+- type: Newsroom
+  url: https://anyware-robotics.com/news/
+- type: Documentation
+  url: https://dev.anyware-robotics.com/
+- type: DomainSecurity
+  url: security/anyware-robotics-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://anyware-robotics.com
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The provider's website offers only marketing pages and no publicly accessible OpenAPI, GraphQL, or other machine‑readable API specifications.
+  evidence:
+    - url: https://anyware-robotics.com/openapi.json
+      status: 404
+    - url: https://dev.anyware-robotics.com/openapi.json
+      status: 302
+  checked: '2026-09-25'
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 5
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
